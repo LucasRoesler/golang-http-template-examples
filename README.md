@@ -12,3 +12,6 @@ faas-cli build
 1. [`publisher`](./publisher/) is an example `go-http` function that publishes messages to a NATS subject. This function demonstrates using
    a. external public packages: `github.com/nats-io/nats.go` and `github.com/openfaas/templates-sdk/go-http`
    b. it contains a named subpackage [`pkg/version`](./publisher/pkg/version/)
+
+2. [`quoter`](./quoter/) is an example `go-http-middleware` function that echos the input in quotes. This function demonstrates using
+   a. local replace statements in the handler `go.mod` file

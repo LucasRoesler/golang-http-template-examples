@@ -8,3 +8,8 @@ functions:
     lang: golang-http
     handler: ./publisher
     image: publisher:latest
+  quoter:
+    lang: golang-middleware
+    handler: ./quoter
+    image: quoter:latest
+

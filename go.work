@@ -1,0 +1,8 @@
+go 1.18
+
+use (
+	./publisher
+	./quoter
+	./template/golang-http
+	./template/golang-middleware
+)
