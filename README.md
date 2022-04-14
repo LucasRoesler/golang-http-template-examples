@@ -15,3 +15,8 @@ faas-cli build
 
 2. [`quoter`](./quoter/) is an example `go-http-middleware` function that echos the input in quotes. This function demonstrates using
    a. local replace statements in the handler `go.mod` file
+   b. a function that logs
+
+3. [`jules`](./jules/) is an example `go-http-middleware` function that echos the user input like Jules from Pulp Fiction: "Say {input} one more time!". This function demonstrates
+   a. using vendoring
+   b. a function that logs

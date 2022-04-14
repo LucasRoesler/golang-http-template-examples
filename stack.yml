@@ -13,3 +13,10 @@ functions:
     handler: ./quoter
     image: quoter:latest
 
+  jules:
+    lang: golang-middleware
+    handler: ./jules
+    image: jules:latest
+    build_args:
+      GO111MODULE: off
+      GOFLAGS: "-mod=vendor"
