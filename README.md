@@ -3,7 +3,7 @@
 The functions are example and basic "smoke tests" for the [golang-http templates](https://github.com/openfaas/golang-http-template)
 
 ```
-faas-cli template pull https://github.com/LucasRoesler/golang-http-template#feat-upgrade-to-1.18-and-use-workspaces
+faas-cli template pull https://github.com/LucasRoesler/golang-http-template#feat-automatic-vendor-detection
 faas-cli build
 ```
 
