@@ -1,8 +1,8 @@
 go 1.18
 
 use (
+	./jules-http
 	./publisher
 	./quoter
 	./template/golang-http
-	./template/golang-middleware
 )

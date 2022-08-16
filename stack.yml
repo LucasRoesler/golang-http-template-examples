@@ -8,6 +8,7 @@ functions:
     lang: golang-http
     handler: ./publisher
     image: publisher:latest
+
   quoter:
     lang: golang-middleware
     handler: ./quoter
@@ -17,3 +18,8 @@ functions:
     lang: golang-middleware
     handler: ./jules
     image: jules:latest
+  jules-http:
+    lang: golang-http
+    handler: ./jules-http
+    image: jules-http:latest
+
